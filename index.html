@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Encontra tu Pokemon</h1>
 <section>
-    <input type="number">
-    <button>Buscar</button>
-    <div class="cardContainer">
+    <form action="" class="form">
+        <input class='selection' type="number">
+        <button class="search">Buscar</button>
+    </form>
 
+    <div class="cardContainer">
+        <!-- <div class="card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Pokemon">
+            <span class="name">CHARIZARD</span>
+            <p class="type">Fire</p>
+            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, quam quibusdam. Amet porro eveniet neque aperiam, magnam, voluptates sapiente</p>
+            <p class="number">#04</p>
+        </div> -->
     </div>
+    <div class="errContainer"></div>
 </section>
 
+<script src="/javascript/request.js"></script>
+<script src="/javascript/index.js"></script>
 </body>
 </html>
